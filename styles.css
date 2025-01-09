@@ -42,12 +42,12 @@ ul {
     border: 1px solid black;
     width: auto;
     list-style: none;
-    border-radius: .5rem;
-    height: auto;  /*where we left */
+    height: auto;  
 }
 
-li {
-    border: 1px solid black;
+.option-list {
+    position: absolute;
+    top: -9px;
 }
 
 .value {
@@ -56,10 +56,14 @@ li {
     padding: .5rem;
 }
 
-.value::after {
+#select {
+    position: relative;
+}
+
+#select::after {
     content: "▼";
     position: absolute;
-    top: 0px;
+    top: -9px;
     left: 200px;
     color:white;
     background-color: black;
