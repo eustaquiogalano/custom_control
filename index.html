@@ -8,18 +8,19 @@
 </head>
 <body>
     <main>
-        <div>
+        <div id="custom-container">
             <!-- acts as a label -->
-            <p id="label">Select a power:</p>
-            
-            <!-- acts as a select element -->
-            <ul class="select">
-                <!-- li acts as option element -->
-                <li class="option">Superstrength</li>
-                <li class="option">Speedster</li>
-                <li class="option">Telekinesis</li>
-                <li class="option">Super smart</li>
-            </ul>
+            <div id="select">
+                <span class="value">Superstrength</span>
+                <!-- acts as a select element -->
+                <ul class="option-list hidden">
+                    <!-- li acts as option element -->
+                    <li class="option">Superstrength</li>
+                    <li class="option">Speedster</li>
+                    <li class="option">Telekinesis</li>
+                    <li class="option">Super smart</li>
+                </ul>
+            </div>
         </div>
     </main>
     <script src="./script.js"></script>
