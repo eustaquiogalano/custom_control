@@ -26,8 +26,8 @@ main {
 }
 
 #custom-container {
+    position: relative;
     width: 30%;
-    /* border: 1px solid rebeccapurple; */
     padding: .5rem;
     display: flex;
     flex-direction: column;
@@ -37,13 +37,17 @@ main {
 }
 
 ul {
-    position: relative;
+    position: absolute;
     padding: .5rem;
     border: 1px solid black;
-    width: 50%;
+    width: auto;
     list-style: none;
     border-radius: .5rem;
     height: auto;  /*where we left */
+}
+
+li {
+    border: 1px solid black;
 }
 
 .value {
